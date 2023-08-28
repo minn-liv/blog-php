@@ -18,7 +18,7 @@ if (isset($_SESSION['user-id'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP & MySQL Blog Application with Admin Panel</title>
+    <title>Blog</title>
     <!-- CUSTOM STYLESHEET -->
     <link rel="stylesheet" href="<?= ROOT_URL ?>css/style.css">
     <!-- Iconscout CDN -->
@@ -31,7 +31,7 @@ if (isset($_SESSION['user-id'])) {
 <body>
     <nav>
         <div class="container nav__container">
-            <a href="<?= ROOT_URL ?>" class="nav__logo">EGATOR</a>
+            <a href="<?= ROOT_URL ?>" class="nav__logo">Blog</a>
             <ul class="nav__items">
                 <li><a href="<?= ROOT_URL ?>blog.php">Blog</a></li>
                 <li><a href="<?= ROOT_URL ?>about.php">About</a></li>
